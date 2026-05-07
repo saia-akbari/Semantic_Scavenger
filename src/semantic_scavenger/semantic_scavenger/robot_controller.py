@@ -24,6 +24,15 @@ JOINT_LIMITS = [
 
 HOME_POSITION = [0.0, -1.57, 0.0, -1.57, 0.0, 0.0]
 
+# Wrist points straight down (gripper fingers facing -Z)
+TARGET_ORIENTATION = np.array([
+    [1, 0, 0],
+    [0, 1, 0],
+    [0, 0, -1]
+])
+
+MAX_JOINT_STEP = 0.1
+
 class RobotController(Node):
     def __init__(self):
         super().__init__('robot_controller')
@@ -66,9 +75,19 @@ class RobotController(Node):
 
         target_pos = current_pos + np.array([dx, dy, dz])
 
-        new_joints = self.chain.inverse_kinematics(target_pos, initial_position=full_joints)
+        new_joints = self.chain.inverse_kinematics(
+            target_pos,
+            target_orientation=TARGET_ORIENTATION,
+            orientation_mode="all",
+            initial_position=full_joints
+        )
 
         clamped = list(new_joints[1:7])
+        for i in range(6):
+            delta = clamped[i] - self.current_joints[i]
+            delta = float(np.clip(delta, -MAX_JOINT_STEP, MAX_JOINT_STEP))
+            clamped[i] = self.current_joints[i] + delta
+
         for i, (low, high) in enumerate(JOINT_LIMITS):
             clamped[i] = float(np.clip(clamped[i], low, high))
 
