@@ -1,0 +1,20 @@
+[0.842s] Invoking command in '/home/saia/Semantic_Scavenger_ws/build/semantic_scavenger': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build --no-deps symlink_data --force
+[1.083s] running develop
+[1.241s] running egg_info
+[1.256s] writing semantic_scavenger.egg-info/PKG-INFO
+[1.257s] writing dependency_links to semantic_scavenger.egg-info/dependency_links.txt
+[1.257s] writing entry points to semantic_scavenger.egg-info/entry_points.txt
+[1.258s] writing requirements to semantic_scavenger.egg-info/requires.txt
+[1.258s] writing top-level names to semantic_scavenger.egg-info/top_level.txt
+[1.288s] reading manifest file 'semantic_scavenger.egg-info/SOURCES.txt'
+[1.289s] writing manifest file 'semantic_scavenger.egg-info/SOURCES.txt'
+[1.304s] running build_ext
+[1.304s] Creating /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic-scavenger.egg-link (link to .)
+[1.305s] Installing robot_controller script to /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/semantic_scavenger
+[1.305s] Installing vla_bridge script to /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/semantic_scavenger
+[1.305s] 
+[1.305s] Installed /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger
+[1.306s] running symlink_data
+[1.306s] symbolically linking /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/resource/semantic_scavenger -> /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/ament_index/resource_index/packages
+[1.306s] symbolically linking /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/package.xml -> /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger
+[1.329s] Invoked command in '/home/saia/Semantic_Scavenger_ws/build/semantic_scavenger' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build --no-deps symlink_data --force

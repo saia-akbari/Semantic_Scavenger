@@ -1,0 +1,215 @@
+[0.235s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'semantic_scavenger']
+[0.235s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['semantic_scavenger'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74168acfd550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74168aea5790>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74168aea5790>>)
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.300s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/saia/Semantic_Scavenger_ws'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Description) by extension 'ros'
+[0.338s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Description' with type 'ros.ament_cmake' and name 'ur_description'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extension 'ros'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extensions ['cmake', 'python']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extension 'cmake'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extension 'python'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extensions ['python_setup_py']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation) by extension 'python_setup_py'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz) by extension 'ros'
+[0.340s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz' with type 'ros.ament_cmake' and name 'ur_simulation_gz'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ros'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['cmake', 'python']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'cmake'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'python'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['python_setup_py']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'python_setup_py'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo' with type 'ros.ament_cmake' and name 'ur_simulation_gazebo'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'ros'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['cmake', 'python']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'cmake'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'python'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extensions ['python_setup_py']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/__pycache__) by extension 'python_setup_py'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_scavenger) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_scavenger) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_scavenger) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_scavenger) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_scavenger) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_scavenger) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_scavenger) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_scavenger) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_scavenger) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/semantic_scavenger' with type 'ros.ament_python' and name 'semantic_scavenger'
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.370s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_description' in 'src/Universal_Robots_ROS2_Description'
+[0.371s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_simulation_gazebo' in 'src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo'
+[0.371s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_simulation_gz' in 'src/Universal_Robots_ROS2_GZ_Simulation/ur_simulation_gz'
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.377s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/saia/Semantic_Scavenger_ws/install
+[0.378s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 407 installed packages in /opt/ros/jazzy
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'semantic_scavenger' build argument 'cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'semantic_scavenger' build argument 'cmake_target' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'semantic_scavenger' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'semantic_scavenger' build argument 'cmake_clean_cache' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'semantic_scavenger' build argument 'cmake_clean_first' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'semantic_scavenger' build argument 'cmake_force_configure' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'semantic_scavenger' build argument 'ament_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'semantic_scavenger' build argument 'catkin_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'semantic_scavenger' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.431s] DEBUG:colcon.colcon_core.verb:Building package 'semantic_scavenger' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saia/Semantic_Scavenger_ws/build/semantic_scavenger', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger', 'merge_install': False, 'path': '/home/saia/Semantic_Scavenger_ws/src/semantic_scavenger', 'symlink_install': False, 'test_result_base': None}
+[0.432s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.433s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.433s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/saia/Semantic_Scavenger_ws/src/semantic_scavenger' with build type 'ament_python'
+[0.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('semantic_scavenger', 'ament_prefix_path')
+[0.439s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger/hook/ament_prefix_path.ps1'
+[0.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger/hook/ament_prefix_path.dsv'
+[0.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger/hook/ament_prefix_path.sh'
+[0.442s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.442s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.652s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/saia/Semantic_Scavenger_ws/src/semantic_scavenger'
+[0.652s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.653s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saia/Semantic_Scavenger_ws/src/semantic_scavenger': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/semantic_scavenger build --build-base /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build install --record /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/install.log --single-version-externally-managed install_data
+[1.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saia/Semantic_Scavenger_ws/src/semantic_scavenger' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/semantic_scavenger build --build-base /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build install --record /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/install.log --single-version-externally-managed install_data
+[1.961s] Level 1:colcon.colcon_core.environment:checking '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger' for CMake module files
+[1.961s] Level 1:colcon.colcon_core.environment:checking '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger' for CMake config files
+[1.964s] Level 1:colcon.colcon_core.environment:checking '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib'
+[1.964s] Level 1:colcon.colcon_core.environment:checking '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/bin'
+[1.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('semantic_scavenger', 'path')
+[1.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger/hook/path.ps1'
+[1.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger/hook/path.dsv'
+[1.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger/hook/path.sh'
+[1.965s] Level 1:colcon.colcon_core.environment:checking '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/pkgconfig/semantic_scavenger.pc'
+[1.966s] Level 1:colcon.colcon_core.environment:checking '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages'
+[1.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('semantic_scavenger', 'pythonpath')
+[1.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger/hook/pythonpath.ps1'
+[1.966s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger/hook/pythonpath.dsv'
+[1.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger/hook/pythonpath.sh'
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/bin'
+[1.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('semantic_scavenger', 'pythonscriptspath')
+[1.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger/hook/pythonscriptspath.ps1'
+[1.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger/hook/pythonscriptspath.dsv'
+[1.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger/hook/pythonscriptspath.sh'
+[1.968s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(semantic_scavenger)
+[1.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger/package.ps1'
+[1.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger/package.dsv'
+[1.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger/package.sh'
+[1.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger/package.bash'
+[1.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger/package.zsh'
+[1.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/colcon-core/packages/semantic_scavenger)
+[1.972s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.973s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.973s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.973s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.016s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.017s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.017s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.017s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.019s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.019s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.019s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saia/Semantic_Scavenger_ws/install/local_setup.ps1'
+[2.020s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/saia/Semantic_Scavenger_ws/install/_local_setup_util_ps1.py'
+[2.022s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saia/Semantic_Scavenger_ws/install/setup.ps1'
+[2.023s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saia/Semantic_Scavenger_ws/install/local_setup.sh'
+[2.024s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/saia/Semantic_Scavenger_ws/install/_local_setup_util_sh.py'
+[2.024s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saia/Semantic_Scavenger_ws/install/setup.sh'
+[2.025s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saia/Semantic_Scavenger_ws/install/local_setup.bash'
+[2.026s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saia/Semantic_Scavenger_ws/install/setup.bash'
+[2.026s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saia/Semantic_Scavenger_ws/install/local_setup.zsh'
+[2.027s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saia/Semantic_Scavenger_ws/install/setup.zsh'

@@ -1,0 +1,37 @@
+[1.189s] Invoking command in '/home/saia/Semantic_Scavenger_ws/src/semantic_scavenger': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/semantic_scavenger build --build-base /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build install --record /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/install.log --single-version-externally-managed install_data
+[1.426s] running egg_info
+[1.427s] creating ../../build/semantic_scavenger/semantic_scavenger.egg-info
+[1.446s] writing ../../build/semantic_scavenger/semantic_scavenger.egg-info/PKG-INFO
+[1.446s] writing dependency_links to ../../build/semantic_scavenger/semantic_scavenger.egg-info/dependency_links.txt
+[1.446s] writing entry points to ../../build/semantic_scavenger/semantic_scavenger.egg-info/entry_points.txt
+[1.446s] writing requirements to ../../build/semantic_scavenger/semantic_scavenger.egg-info/requires.txt
+[1.446s] writing top-level names to ../../build/semantic_scavenger/semantic_scavenger.egg-info/top_level.txt
+[1.447s] writing manifest file '../../build/semantic_scavenger/semantic_scavenger.egg-info/SOURCES.txt'
+[1.482s] reading manifest file '../../build/semantic_scavenger/semantic_scavenger.egg-info/SOURCES.txt'
+[1.482s] writing manifest file '../../build/semantic_scavenger/semantic_scavenger.egg-info/SOURCES.txt'
+[1.483s] running build
+[1.483s] running build_py
+[1.483s] creating /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build
+[1.483s] creating /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build/lib
+[1.483s] creating /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build/lib/semantic_scavenger
+[1.484s] copying semantic_scavenger/__init__.py -> /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build/lib/semantic_scavenger
+[1.484s] copying semantic_scavenger/vla_bridge.py -> /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build/lib/semantic_scavenger
+[1.484s] running install
+[1.490s] running install_lib
+[1.509s] creating /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger
+[1.510s] copying /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build/lib/semantic_scavenger/__init__.py -> /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger
+[1.510s] copying /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build/lib/semantic_scavenger/vla_bridge.py -> /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger
+[1.510s] byte-compiling /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger/__init__.py to __init__.cpython-312.pyc
+[1.512s] byte-compiling /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger/vla_bridge.py to vla_bridge.cpython-312.pyc
+[1.513s] running install_data
+[1.513s] creating /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/ament_index
+[1.513s] creating /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/ament_index/resource_index
+[1.514s] creating /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/ament_index/resource_index/packages
+[1.514s] copying resource/semantic_scavenger -> /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/ament_index/resource_index/packages
+[1.514s] copying package.xml -> /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger
+[1.514s] running install_egg_info
+[1.534s] Copying ../../build/semantic_scavenger/semantic_scavenger.egg-info to /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger-0.0.1-py3.12.egg-info
+[1.535s] running install_scripts
+[1.655s] Installing vla_bridge script to /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/bin
+[1.655s] writing list of installed files to '/home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/install.log'
+[1.679s] Invoked command in '/home/saia/Semantic_Scavenger_ws/src/semantic_scavenger' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/semantic_scavenger build --build-base /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build install --record /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/install.log --single-version-externally-managed install_data

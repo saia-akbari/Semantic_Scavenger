@@ -1,0 +1,1 @@
+/home/saia/Semantic_Scavenger_ws/build/ur_simulation_gz/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,3 @@
+[console_scripts]
+robot_controller = semantic_scavenger.robot_controller:main
+vla_bridge = semantic_scavenger.vla_bridge:main

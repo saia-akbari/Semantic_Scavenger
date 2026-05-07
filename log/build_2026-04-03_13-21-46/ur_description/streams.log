@@ -1,0 +1,250 @@
+[0.015s] Invoking command in '/home/saia/Semantic_Scavenger_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/saia/Semantic_Scavenger_ws/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saia/Semantic_Scavenger_ws/install/ur_description
+[0.209s] -- The C compiler identification is GNU 13.3.0
+[0.629s] -- The CXX compiler identification is GNU 13.3.0
+[1.003s] -- Detecting C compiler ABI info
+[1.172s] -- Detecting C compiler ABI info - done
+[1.178s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.179s] -- Detecting C compile features
+[1.180s] -- Detecting C compile features - done
+[1.231s] -- Detecting CXX compiler ABI info
+[1.408s] -- Detecting CXX compiler ABI info - done
+[1.415s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.415s] -- Detecting CXX compile features
+[1.415s] -- Detecting CXX compile features - done
+[1.425s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.546s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.613s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.665s] -- Found ament_cmake_pytest: 2.5.5 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[2.381s] -- Configuring done (2.3s)
+[2.384s] -- Generating done (0.0s)
+[2.385s] -- Build files have been written to: /home/saia/Semantic_Scavenger_ws/build/ur_description
+[2.390s] Invoked command in '/home/saia/Semantic_Scavenger_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/saia/Semantic_Scavenger_ws/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saia/Semantic_Scavenger_ws/install/ur_description
+[2.391s] Invoking command in '/home/saia/Semantic_Scavenger_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saia/Semantic_Scavenger_ws/build/ur_description -- -j8 -l8
+[2.424s] Invoked command in '/home/saia/Semantic_Scavenger_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saia/Semantic_Scavenger_ws/build/ur_description -- -j8 -l8
+[2.432s] Invoking command in '/home/saia/Semantic_Scavenger_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saia/Semantic_Scavenger_ws/build/ur_description
+[2.438s] -- Install configuration: ""
+[2.439s] -- Execute custom install script
+[2.444s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/initial_positions.yaml
+[2.452s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[2.459s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[2.467s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[2.474s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[2.482s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[2.490s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[2.498s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[2.505s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[2.514s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur12e/default_kinematics.yaml
+[2.522s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur12e/joint_limits.yaml
+[2.530s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur12e/physical_parameters.yaml
+[2.538s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur12e/visual_parameters.yaml
+[2.545s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur15/default_kinematics.yaml
+[2.552s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur15/joint_limits.yaml
+[2.560s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur15/physical_parameters.yaml
+[2.567s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur15/visual_parameters.yaml
+[2.574s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[2.582s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[2.589s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[2.596s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[2.603s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur18/default_kinematics.yaml
+[2.611s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur18/joint_limits.yaml
+[2.619s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur18/physical_parameters.yaml
+[2.626s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur18/visual_parameters.yaml
+[2.634s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[2.642s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[2.651s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[2.658s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[2.666s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[2.674s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[2.681s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[2.688s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[2.697s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml
+[2.704s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml
+[2.712s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml
+[2.720s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml
+[2.728s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[2.736s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[2.744s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[2.752s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[2.759s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[2.767s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[2.774s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[2.781s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[2.789s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[2.798s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[2.805s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[2.814s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[2.822s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur7e/default_kinematics.yaml
+[2.830s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur7e/joint_limits.yaml
+[2.838s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur7e/physical_parameters.yaml
+[2.848s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur7e/visual_parameters.yaml
+[2.858s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur8long/default_kinematics.yaml
+[2.867s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur8long/joint_limits.yaml
+[2.876s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur8long/physical_parameters.yaml
+[2.883s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/config/ur8long/visual_parameters.yaml
+[2.892s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[2.900s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/launch/view_ur.launch.xml
+[2.919s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[2.927s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[2.935s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[2.943s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[2.951s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[2.959s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[2.967s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[2.974s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[2.982s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[2.990s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[2.998s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[3.006s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[3.013s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[3.021s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[3.030s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[3.037s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[3.045s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[3.053s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[3.061s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[3.068s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[3.076s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[3.086s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[3.094s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[3.101s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[3.109s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[3.117s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[3.125s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[3.132s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[3.140s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur15/LICENSE.txt
+[3.148s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur15/collision/base.stl
+[3.156s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur15/collision/forearm.stl
+[3.163s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur15/collision/shoulder.stl
+[3.171s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur15/collision/upperarm.stl
+[3.178s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur15/collision/wrist1.stl
+[3.186s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur15/collision/wrist2.stl
+[3.193s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur15/collision/wrist3.stl
+[3.202s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur15/visual/UR15_DIFF_8bit_2K.jpg
+[3.210s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur15/visual/base.dae
+[3.218s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur15/visual/forearm.dae
+[3.225s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur15/visual/shoulder.dae
+[3.233s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur15/visual/upperarm.dae
+[3.241s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur15/visual/wrist1.dae
+[3.249s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur15/visual/wrist2.dae
+[3.256s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur15/visual/wrist3.dae
+[3.264s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[3.271s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[3.280s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[3.288s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[3.296s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur18/LICENSE.txt
+[3.303s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur18/collision/forearm.stl
+[3.311s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur18/collision/upperarm.stl
+[3.320s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur18/visual/UR18_DIFF_8bit_2K.jpg
+[3.327s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur18/visual/forearm.dae
+[3.334s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur18/visual/upperarm.dae
+[3.342s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt
+[3.349s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl
+[3.357s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl
+[3.365s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl
+[3.373s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl
+[3.381s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl
+[3.389s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl
+[3.397s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl
+[3.405s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+[3.414s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae
+[3.423s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae
+[3.431s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae
+[3.438s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae
+[3.446s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae
+[3.455s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae
+[3.463s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae
+[3.472s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[3.483s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[3.491s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[3.499s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[3.507s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[3.516s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[3.524s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[3.533s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[3.540s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[3.547s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[3.555s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[3.562s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[3.570s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[3.577s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[3.585s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt
+[3.593s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl
+[3.601s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl
+[3.608s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png
+[3.617s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae
+[3.624s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae
+[3.633s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[3.641s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[3.649s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[3.657s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[3.665s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[3.672s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[3.680s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[3.688s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[3.696s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[3.703s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[3.711s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[3.719s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[3.727s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[3.734s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[3.742s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[3.750s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[3.757s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[3.765s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[3.773s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[3.781s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[3.790s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[3.798s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[3.806s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[3.815s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[3.823s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[3.831s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[3.838s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[3.846s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[3.853s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[3.860s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[3.868s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[3.876s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[3.884s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[3.891s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[3.899s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[3.907s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[3.916s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[3.923s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[3.931s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[3.939s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[3.947s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[3.955s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[3.962s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur8long/LICENSE.txt
+[3.969s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur8long/collision/forearm.stl
+[3.977s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur8long/collision/upperarm.stl
+[3.985s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur8long/visual/UR8Long_DIFF_8bit_2K.jpg
+[3.993s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur8long/visual/forearm.dae
+[4.001s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/meshes/ur8long/visual/upperarm.dae
+[4.011s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[4.020s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[4.028s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/urdf/inc/ur_joint_control.xacro
+[4.036s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/urdf/inc/ur_sensors.xacro
+[4.044s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[4.052s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/urdf/ros2_control_mock_hardware.xacro
+[4.059s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[4.067s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[4.074s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/urdf/ur_mocked.urdf.xacro
+[4.082s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[4.090s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[4.098s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[4.105s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[4.114s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[4.121s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[4.130s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/environment/path.sh
+[4.138s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/environment/path.dsv
+[4.145s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/local_setup.bash
+[4.152s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/local_setup.sh
+[4.160s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/local_setup.zsh
+[4.168s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/local_setup.dsv
+[4.175s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/package.dsv
+[4.183s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[4.191s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[4.198s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[4.205s] -- Symlinking: /home/saia/Semantic_Scavenger_ws/install/ur_description/share/ur_description/package.xml
+[4.215s] Invoked command in '/home/saia/Semantic_Scavenger_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saia/Semantic_Scavenger_ws/build/ur_description

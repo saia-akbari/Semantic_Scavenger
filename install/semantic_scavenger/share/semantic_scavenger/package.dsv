@@ -1,0 +1,15 @@
+source;share/semantic_scavenger/hook/path.ps1
+source;share/semantic_scavenger/hook/path.dsv
+source;share/semantic_scavenger/hook/path.sh
+source;share/semantic_scavenger/hook/pythonpath.ps1
+source;share/semantic_scavenger/hook/pythonpath.dsv
+source;share/semantic_scavenger/hook/pythonpath.sh
+source;share/semantic_scavenger/hook/pythonscriptspath.ps1
+source;share/semantic_scavenger/hook/pythonscriptspath.dsv
+source;share/semantic_scavenger/hook/pythonscriptspath.sh
+source;share/semantic_scavenger/hook/ament_prefix_path.ps1
+source;share/semantic_scavenger/hook/ament_prefix_path.dsv
+source;share/semantic_scavenger/hook/ament_prefix_path.sh
+source;../../build/semantic_scavenger/share/semantic_scavenger/hook/pythonpath_develop.ps1
+source;../../build/semantic_scavenger/share/semantic_scavenger/hook/pythonpath_develop.dsv
+source;../../build/semantic_scavenger/share/semantic_scavenger/hook/pythonpath_develop.sh

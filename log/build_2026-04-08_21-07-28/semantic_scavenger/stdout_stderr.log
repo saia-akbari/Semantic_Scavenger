@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/semantic_scavenger/semantic_scavenger.egg-info
+writing ../../build/semantic_scavenger/semantic_scavenger.egg-info/PKG-INFO
+writing dependency_links to ../../build/semantic_scavenger/semantic_scavenger.egg-info/dependency_links.txt
+writing entry points to ../../build/semantic_scavenger/semantic_scavenger.egg-info/entry_points.txt
+writing requirements to ../../build/semantic_scavenger/semantic_scavenger.egg-info/requires.txt
+writing top-level names to ../../build/semantic_scavenger/semantic_scavenger.egg-info/top_level.txt
+writing manifest file '../../build/semantic_scavenger/semantic_scavenger.egg-info/SOURCES.txt'
+reading manifest file '../../build/semantic_scavenger/semantic_scavenger.egg-info/SOURCES.txt'
+writing manifest file '../../build/semantic_scavenger/semantic_scavenger.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build
+creating /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build/lib
+creating /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build/lib/semantic_scavenger
+copying semantic_scavenger/__init__.py -> /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build/lib/semantic_scavenger
+copying semantic_scavenger/vla_bridge.py -> /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build/lib/semantic_scavenger
+running install
+running install_lib
+creating /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger
+copying /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build/lib/semantic_scavenger/__init__.py -> /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger
+copying /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build/lib/semantic_scavenger/vla_bridge.py -> /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger
+byte-compiling /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger/vla_bridge.py to vla_bridge.cpython-312.pyc
+running install_data
+creating /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/ament_index
+creating /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/ament_index/resource_index
+creating /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/ament_index/resource_index/packages
+copying resource/semantic_scavenger -> /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/ament_index/resource_index/packages
+copying package.xml -> /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger
+running install_egg_info
+Copying ../../build/semantic_scavenger/semantic_scavenger.egg-info to /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger-0.0.1-py3.12.egg-info
+running install_scripts
+Installing vla_bridge script to /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/bin
+writing list of installed files to '/home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/install.log'

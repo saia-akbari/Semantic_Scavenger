@@ -1,0 +1,25 @@
+[3.382s] Invoking command in '/home/saia/Semantic_Scavenger_ws/src/semantic_scavenger': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/semantic_scavenger build --build-base /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build install --record /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/install.log --single-version-externally-managed install_data
+[4.492s] running egg_info
+[4.615s] writing ../../build/semantic_scavenger/semantic_scavenger.egg-info/PKG-INFO
+[4.616s] writing dependency_links to ../../build/semantic_scavenger/semantic_scavenger.egg-info/dependency_links.txt
+[4.617s] writing entry points to ../../build/semantic_scavenger/semantic_scavenger.egg-info/entry_points.txt
+[4.617s] writing requirements to ../../build/semantic_scavenger/semantic_scavenger.egg-info/requires.txt
+[4.617s] writing top-level names to ../../build/semantic_scavenger/semantic_scavenger.egg-info/top_level.txt
+[4.732s] reading manifest file '../../build/semantic_scavenger/semantic_scavenger.egg-info/SOURCES.txt'
+[4.737s] writing manifest file '../../build/semantic_scavenger/semantic_scavenger.egg-info/SOURCES.txt'
+[4.737s] running build
+[4.737s] running build_py
+[4.737s] copying semantic_scavenger/robot_controller.py -> /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build/lib/semantic_scavenger
+[4.738s] running install
+[4.756s] running install_lib
+[4.811s] copying /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build/lib/semantic_scavenger/robot_controller.py -> /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger
+[4.811s] byte-compiling /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger/robot_controller.py to robot_controller.cpython-312.pyc
+[4.813s] running install_data
+[4.814s] running install_egg_info
+[4.887s] removing '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger-0.0.1-py3.12.egg-info' (and everything under it)
+[4.891s] Copying ../../build/semantic_scavenger/semantic_scavenger.egg-info to /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger-0.0.1-py3.12.egg-info
+[4.891s] running install_scripts
+[5.261s] Installing robot_controller script to /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/semantic_scavenger
+[5.262s] Installing vla_bridge script to /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/semantic_scavenger
+[5.263s] writing list of installed files to '/home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/install.log'
+[5.337s] Invoked command in '/home/saia/Semantic_Scavenger_ws/src/semantic_scavenger' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/semantic_scavenger build --build-base /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build install --record /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/install.log --single-version-externally-managed install_data

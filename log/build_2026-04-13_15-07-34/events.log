@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.007087] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.007209] (-) JobUnselected: {'identifier': 'ur_simulation_gazebo'}
+[0.007289] (-) JobUnselected: {'identifier': 'ur_simulation_gz'}
+[0.007363] (semantic_scavenger) JobQueued: {'identifier': 'semantic_scavenger', 'dependencies': OrderedDict()}
+[0.007436] (semantic_scavenger) JobStarted: {'identifier': 'semantic_scavenger'}
+[0.103106] (-) TimerEvent: {}
+[0.203905] (-) TimerEvent: {}
+[0.305500] (-) TimerEvent: {}
+[0.409604] (-) TimerEvent: {}
+[0.510348] (-) TimerEvent: {}
+[0.611159] (-) TimerEvent: {}
+[0.711856] (-) TimerEvent: {}
+[0.812281] (-) TimerEvent: {}
+[0.913152] (-) TimerEvent: {}
+[1.016276] (-) TimerEvent: {}
+[1.117017] (-) TimerEvent: {}
+[1.217776] (-) TimerEvent: {}
+[1.318442] (-) TimerEvent: {}
+[1.422718] (-) TimerEvent: {}
+[1.535058] (-) TimerEvent: {}
+[1.635681] (-) TimerEvent: {}
+[1.736328] (-) TimerEvent: {}
+[1.836876] (-) TimerEvent: {}
+[1.937743] (-) TimerEvent: {}
+[2.049545] (-) TimerEvent: {}
+[2.150272] (-) TimerEvent: {}
+[2.262648] (-) TimerEvent: {}
+[2.363441] (-) TimerEvent: {}
+[2.465199] (-) TimerEvent: {}
+[2.566126] (-) TimerEvent: {}
+[2.669721] (-) TimerEvent: {}
+[2.773430] (-) TimerEvent: {}
+[2.874505] (-) TimerEvent: {}
+[2.976043] (-) TimerEvent: {}
+[3.076585] (-) TimerEvent: {}
+[3.177978] (-) TimerEvent: {}
+[3.238147] (semantic_scavenger) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/semantic_scavenger', 'build', '--build-base', '/home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build', 'install', '--record', '/home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/saia/Semantic_Scavenger_ws/src/semantic_scavenger', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': ':/home/saia/Semantic_Scavenger_ws/install/ur_description/share', 'USER': 'saia', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/saia/LyAT_ws/install/px4_safety_lib/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/saia', 'OLDPWD': '/home/saia', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/saia/Semantic_Scavenger_ws/install:/home/saia/LyAT_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'saia', 'NAME': 'DESKTOP-LBE4NPF', 'WSL_INTEROP': '/run/WSL/2799_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/bin:/home/saia/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files/TortoiseSVN/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/saied/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/saied/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/saied/AppData/Local/Microsoft/WindowsApps:/mnt/c/texlive/2022/bin/win32:/mnt/c/Users/saied/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/opt/xtensa-esp-elf/bin/', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/saia/Semantic_Scavenger_ws/install/ur_simulation_gz:/home/saia/Semantic_Scavenger_ws/install/ur_simulation_gazebo:/home/saia/Semantic_Scavenger_ws/install/ur_description:/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger:/home/saia/LyAT_ws/install/px4_teleop:/home/saia/LyAT_ws/install/px4_telemetry:/home/saia/LyAT_ws/install/px4_safety_lib:/home/saia/LyAT_ws/install/lyapunov_adaptive_transformer:/home/saia/LyAT_ws/install/autonomy_park_viz:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'PX4_HOME_LAT': '29.6282703', 'PX4_HOME_ALT': '30.861857569478296', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/saia/Semantic_Scavenger_ws/build/semantic_scavenger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages:/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages:/home/saia/LyAT_ws/install/lyapunov_adaptive_transformer/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'PX4_HOME_LON': '-82.3606036', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/saia/Semantic_Scavenger_ws/install/ur_simulation_gz:/home/saia/Semantic_Scavenger_ws/install/ur_simulation_gazebo:/home/saia/Semantic_Scavenger_ws/install/ur_description:/home/saia/LyAT_ws/install/px4_teleop:/home/saia/LyAT_ws/install/px4_telemetry:/home/saia/LyAT_ws/install/px4_safety_lib:/home/saia/LyAT_ws/install/autonomy_park_viz:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': ''}, 'shell': False}
+[3.278414] (-) TimerEvent: {}
+[3.379762] (-) TimerEvent: {}
+[3.480628] (-) TimerEvent: {}
+[3.583123] (-) TimerEvent: {}
+[3.690327] (-) TimerEvent: {}
+[3.791455] (-) TimerEvent: {}
+[3.892209] (-) TimerEvent: {}
+[3.996429] (-) TimerEvent: {}
+[4.075094] (semantic_scavenger) StdoutLine: {'line': b'running egg_info\n'}
+[4.098896] (-) TimerEvent: {}
+[4.134872] (semantic_scavenger) StdoutLine: {'line': b'writing ../../build/semantic_scavenger/semantic_scavenger.egg-info/PKG-INFO\n'}
+[4.136511] (semantic_scavenger) StdoutLine: {'line': b'writing dependency_links to ../../build/semantic_scavenger/semantic_scavenger.egg-info/dependency_links.txt\n'}
+[4.140696] (semantic_scavenger) StdoutLine: {'line': b'writing entry points to ../../build/semantic_scavenger/semantic_scavenger.egg-info/entry_points.txt\n'}
+[4.142232] (semantic_scavenger) StdoutLine: {'line': b'writing requirements to ../../build/semantic_scavenger/semantic_scavenger.egg-info/requires.txt\n'}
+[4.142572] (semantic_scavenger) StdoutLine: {'line': b'writing top-level names to ../../build/semantic_scavenger/semantic_scavenger.egg-info/top_level.txt\n'}
+[4.199409] (-) TimerEvent: {}
+[4.272044] (semantic_scavenger) StdoutLine: {'line': b"reading manifest file '../../build/semantic_scavenger/semantic_scavenger.egg-info/SOURCES.txt'\n"}
+[4.275154] (semantic_scavenger) StdoutLine: {'line': b"writing manifest file '../../build/semantic_scavenger/semantic_scavenger.egg-info/SOURCES.txt'\n"}
+[4.275581] (semantic_scavenger) StdoutLine: {'line': b'running build\n'}
+[4.275736] (semantic_scavenger) StdoutLine: {'line': b'running build_py\n'}
+[4.275854] (semantic_scavenger) StdoutLine: {'line': b'copying semantic_scavenger/robot_controller.py -> /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build/lib/semantic_scavenger\n'}
+[4.275967] (semantic_scavenger) StdoutLine: {'line': b'running install\n'}
+[4.296873] (semantic_scavenger) StdoutLine: {'line': b'running install_lib\n'}
+[4.299573] (-) TimerEvent: {}
+[4.390113] (semantic_scavenger) StdoutLine: {'line': b'copying /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/build/lib/semantic_scavenger/robot_controller.py -> /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger\n'}
+[4.391524] (semantic_scavenger) StdoutLine: {'line': b'byte-compiling /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger/robot_controller.py to robot_controller.cpython-312.pyc\n'}
+[4.394974] (semantic_scavenger) StdoutLine: {'line': b'running install_data\n'}
+[4.395630] (semantic_scavenger) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.400046] (-) TimerEvent: {}
+[4.460618] (semantic_scavenger) StdoutLine: {'line': b"removing '/home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[4.463629] (semantic_scavenger) StdoutLine: {'line': b'Copying ../../build/semantic_scavenger/semantic_scavenger.egg-info to /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic_scavenger-0.0.1-py3.12.egg-info\n'}
+[4.466759] (semantic_scavenger) StdoutLine: {'line': b'running install_scripts\n'}
+[4.503085] (-) TimerEvent: {}
+[4.603592] (-) TimerEvent: {}
+[4.704151] (-) TimerEvent: {}
+[4.805289] (-) TimerEvent: {}
+[4.895637] (semantic_scavenger) StdoutLine: {'line': b'Installing robot_controller script to /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/semantic_scavenger\n'}
+[4.896620] (semantic_scavenger) StdoutLine: {'line': b'Installing vla_bridge script to /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/semantic_scavenger\n'}
+[4.898238] (semantic_scavenger) StdoutLine: {'line': b"writing list of installed files to '/home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/install.log'\n"}
+[4.905604] (-) TimerEvent: {}
+[4.994420] (semantic_scavenger) CommandEnded: {'returncode': 0}
+[5.007940] (-) TimerEvent: {}
+[5.052047] (semantic_scavenger) JobEnded: {'identifier': 'semantic_scavenger', 'rc': 0}
+[5.053617] (-) EventReactorShutdown: {}

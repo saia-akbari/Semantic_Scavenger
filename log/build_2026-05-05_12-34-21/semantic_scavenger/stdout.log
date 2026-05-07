@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing semantic_scavenger.egg-info/PKG-INFO
+writing dependency_links to semantic_scavenger.egg-info/dependency_links.txt
+writing entry points to semantic_scavenger.egg-info/entry_points.txt
+writing requirements to semantic_scavenger.egg-info/requires.txt
+writing top-level names to semantic_scavenger.egg-info/top_level.txt
+reading manifest file 'semantic_scavenger.egg-info/SOURCES.txt'
+writing manifest file 'semantic_scavenger.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/python3.12/site-packages/semantic-scavenger.egg-link (link to .)
+Installing robot_controller script to /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/semantic_scavenger
+Installing vla_bridge script to /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/lib/semantic_scavenger
+
+Installed /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger
+running symlink_data
+symbolically linking /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/resource/semantic_scavenger -> /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/ament_index/resource_index/packages
+symbolically linking /home/saia/Semantic_Scavenger_ws/build/semantic_scavenger/package.xml -> /home/saia/Semantic_Scavenger_ws/install/semantic_scavenger/share/semantic_scavenger
